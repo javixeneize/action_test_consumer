@@ -5,8 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Hello world action step
-      uses: javixeneize/action_test@v1.0
+      uses: javixeneize/action_test@v1.1
       with:
         who-to-greet: 'My name'
-    - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
